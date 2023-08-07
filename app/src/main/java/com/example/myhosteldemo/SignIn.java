@@ -427,7 +427,7 @@ public class SignIn extends AppCompatActivity {
         boolean soft_email = true ;
         if(email.isEmpty()){
             edt_email.setError("Email is empty" , null);
-            Toast.makeText(this, "Email is empty", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Email is empty", Toast.LENGTH_SHORT).show() ;
             edt_email.requestFocus(EditText.LAYOUT_DIRECTION_INHERIT) ; soft_email = false ;
             move = false ;
         }
